@@ -69,7 +69,7 @@ ul.nav{
 	padding: 0;
 }
 .navbar-default .navbar-nav>li>a {
- 	font-size: 24px;
+ 	font-size: 22px;
 	color: #737373;
 	text-transform: uppercase;
 	transition: all .7s ease 0s;
@@ -87,7 +87,7 @@ ul.nav{
   background-color: #000;
 }
 li a.active{
-	color: #42b3e5 !important;
+	color: #D21929 !important;/*old #737373 new #D21929*/
 }
 .navbar-default .navbar-toggle {
   border-color: #fff;
@@ -175,8 +175,8 @@ li a.active{
 
 /*about area*/
 .about h2{
-	font-size: 90px;
-	color: #42b3e5;
+	font-size: 60px;
+	color: #D21929;
 	margin-top: 50px;
 }
 .about h4{
@@ -264,8 +264,9 @@ li a.active{
 
 /*service area*/
 .service{
-	background: url(../img/pattern.jpg);
-	background-repeat: repeat-y;
+	background: url(../img/paint_texture2177.jpg);
+	/*background-repeat: repeat-y;*/
+	background-position: 100px;
 	margin-top: 40px;
 }
 .service h2{
@@ -315,7 +316,7 @@ li a.active{
 .service-img {
   width: 200px;
   height: 123px;
-  background: #3a9ecb;
+  background: #D21929;
   position: relative;
   top: 1px;
   left: 2px;
@@ -373,7 +374,7 @@ li a.active{
 }
 .team h2{
 	font-size: 90px;
-	color: #42b3e5;
+	color: #D21929;
 	margin-top: 50px;
 	margin-bottom: 0;
 }
@@ -392,7 +393,7 @@ li a.active{
 }
 .person-detail{
 	padding:10px;
-	background: #3a9cc8;
+	background: #F16C77;
 	position: relative;
 	transition: all .7s ease 0s;
 	-webkit-transition: all .7s ease 0s;
@@ -404,7 +405,7 @@ li a.active{
 	position: absolute;
 	width: 20px;
 	height: 20px;
-	background: #3ba0cc;
+	background: #D21929;
 	transform:rotate(45deg);
 	-webkit-transform:rotate(45deg);
 	-moz-transform:rotate(45deg);
@@ -422,7 +423,7 @@ li a.active{
 	position: absolute;
 	width: 20px;
 	height: 20px;
-	background: #3ba0cc;
+	background: #D21929;
 	transform:rotate(45deg);
 	-webkit-transform:rotate(45deg);
 	-moz-transform:rotate(45deg);
@@ -660,7 +661,7 @@ responsive area
 /* md */
 @media (min-width: 992px) and (max-width: 1199px) {
 	.navbar-default .navbar-nav>li>a {
-	  font-size: 20px;
+	  font-size: 18px;
 	  padding: 14px 12px;
 	}
 	.carousel-caption h1 {
@@ -728,9 +729,9 @@ responsive area
 
 /* xs */
 @media (min-width: 480px) and (max-width: 767px) {
-	.header-logo img{
+	/*.header-logo img{
 	  margin-top: 20px;
-	}
+	}*/
 	.navbar-default .navbar-nav>li>a {
 	  font-size: 20px;
 	}
@@ -774,9 +775,9 @@ responsive area
 
 /* XS Portrait */
 @media (max-width: 479px) {
-	.top-header img.logo {
+	/*.top-header img.logo {
 	  margin: 20px 10px;
-	}
+	}*/
 	.header-logo{
 		margin-top: 20px !important;
 	}
@@ -814,7 +815,7 @@ responsive area
 	}
 	.about h2 {
 	  font-size: 50px;
-	  color: #42b3e5;
+	  color: #D21929;
 	  margin-top: 30px;
 	}
 	.service h2 {
